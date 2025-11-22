@@ -1,1 +1,1 @@
-certificado de Funcionalidad de estructuras de datos
+certificado de Fundamentos de estructuras de datos
