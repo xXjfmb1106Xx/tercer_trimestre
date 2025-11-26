@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .name {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            color: #3498db;
+            font-size: 1.3em;
+            font-weight: normal;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 1px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .company {
+            color: #3498db;
+            font-style: italic;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                margin: 10px;
+            }
+            
+            .name {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="name">MARÍA GONZÁLEZ LÓPEZ</h1>
+            <h2 class="title">Desarrolladora Frontend</h2>
+            <div class="contact-info">
+                <div class="contact-item">📧 maria.gonzalez@email.com</div>
+                <div class="contact-item">📱 +34 612 345 678</div>
+                <div class="contact-item">📍 Madrid, España</div>
+                <div class="contact-item">🔗 linkedin.com/in/mariagonzalez</div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h3 class="section-title">Perfil Profesional</h3>
+            <p>Desarrolladora frontend con 5 años de experiencia especializada en React y Vue.js. Apasionada por crear interfaces de usuario intuitivas y experiencias digitales excepcionales. Busco oportunidades para contribuir en proyectos innovadores.</p>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">Experiencia Laboral</h3>
+            <div class="experience-item">
+                <div class="job-title">Desarrolladora Frontend Senior</div>
+                <div class="company">Tech Solutions S.L.</div>
+                <div class="date">Enero 2020 - Presente</div>
+                <ul>
+                    <li>Lideré el desarrollo de 3 aplicaciones web con React</li>
+                    <li>Reduje el tiempo de carga en un 40% optimizando código</li>
+                    <li>Mentoré a 2 desarrolladores junior</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">Desarrolladora Web</div>
+                <div class="company">Digital Agency XYZ</div>
+                <div class="date">Marzo 2018 - Diciembre 2019</div>
+                <ul>
+                    <li>Desarrollé 15+ sitios web responsivos</li>
+                    <li>Implementé mejoras de SEO aumentando tráfico orgánico en 60%</li>
+                    <li>Trabajé con equipo multidisciplinar en proyectos ágiles</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">Educación</h3>
+            <div class="education-item">
+                <div class="job-title">Grado en Ingeniería Informática</div>
+                <div class="company">Universidad Complutense de Madrid</div>
+                <div class="date">2014 - 2018</div>
+            </div>
+            
+            <div class="education-item">
+                <div class="job-title">Máster en Desarrollo Web</div>
+                <div class="company">Universidad Politécnica de Madrid</div>
+                <div class="date">2018 - 2019</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">Habilidades Técnicas</h3>
+            <div class="skills-list">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Vue.js</span>
+                <span class="skill">Git</span>
+                <span class="skill">Responsive Design</span>
+                <span class="skill">SEO</span>
+                <span class="skill">Figma</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">Idiomas</h3>
+            <ul>
+                <li>Español - Nativo</li>
+                <li>Inglés - Avanzado (C1)</li>
+                <li>Francés - Intermedio (B1)</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

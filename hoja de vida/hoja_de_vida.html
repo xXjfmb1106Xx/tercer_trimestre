@@ -3,78 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida</title>
+    <title>Hoja de Vida — Juan Felipe Muñoz Bernal</title>
     <link rel="stylesheet" href="estilos.css">
+    <meta name="author" content="Juan Felipe Muñoz Bernal">
+    <meta name="description" content="Hoja de vida — Técnico en Programación de Software">
 </head>
 <body>
-    <header>
-        <h1>Hoja de Vida</h1>
-        <div class="foto-perfil"></div>
-            <img src="Pato con cuchillo.jpg" alt="foto temporal">
-        </div>
-    </header>
-    <section id="informacion-personal">
-        <h2>Información Personal</h2>
-        <br>
-        <hr>
-        <p><strong>Nombre:</strong> Juan Felipe Muñoz Bernal</p>
-        <p><strong>Dirección:</strong> Calle Falsa 123, Ciudad, País</p>
-        <p><strong>Teléfono:</strong> +57 315 810 8740</p>
-        <p><strong>Email:</strong>j.f.m.b.1106@gmail.com</p>
-        <p><strong>Fecha de Nacimiento:</strong>06-11-2009</p>
-        <p><strong>Linkedin:</strong></p>
-        <p><strong>gitHUB: </strong><a href="https://github.com/xXjfmb1106Xx">xXjfmb1106Xx</a></p>
-            <a href="..."></a>
-        </p>
-    </section>
-    <section id="experiencia-laboral">
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li>
-                <h3>Tecnico en programacion de software-SENA</h3>
-                <p><strong>Período:</strong> Agosto 2024 - Presente</p>
-                <h5>CERTIFICADOS:</h5>
-                <a><img src="..." alt="certificado 1" >Fundamentos de estructura de datos</a>
-                <a><img src="..." alt="certificado 2" >Introducción a la programación con Python</a>
+    <div class="container">
+        <header class="header">
+            <div class="profile">
+                <img class="profile-photo" src="Pato con cuchillo.jpg" alt="Foto de perfil">
+                <div class="profile-info">
+                    <h1>Juan Felipe Muñoz Bernal</h1>
+                    <p class="role">Técnico en Programación de Software</p>
+                </div>
+            </div>
+        </header>
 
-                <p><strong>Responsabilidades:</strong> Aprendiz en programacion.</p>
-                <p><strong>Lenguajes: </strong></p>
-                <ul>
-                    <li>PYTHON</li>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                </ul>
-            </li>
-            <li>
-                <h3>Asistente de Marketing - Empresa ABC</h3>
-                <p><strong>Período:</strong> Junio 2018 - Diciembre 2019</p>
-                <p><strong>Responsabilidades:</strong> Gestión de campañas publicitarias, análisis de mercado.</p>
-            </li>
-        </ul>
-    </section>
-    <section id="educacion">
-        <h2>Educación</h2>
-        <ul>
-            <li>
-                <h3>Licenciatura en Ingeniería Informática - Universidad Nacional</h3>
-                <p><strong>Período:</strong> 2014 - 2018</p>
-            </li>
-            <li>
-                <h3>Bachillerato en Ciencias - Colegio Central</h3>
-                <p><strong>Período:</strong> 2010 - 2014</p>
-            </li>
-        </ul>
-    </section>
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Programación en HTML, CSS, JavaScript</li>
-            <li>Gestión de proyectos</li>
-            <li>Comunicación efectiva</li>
-        </ul>
-    </section>
-    <footer>
-        <p>&copy; 2024 Juan Pérez</p>
-    </footer>
+        <main class="main">
+            <aside class="sidebar">
+                <section class="card contact">
+                    <h2>Contacto</h2>
+                    <p><strong>Teléfono:</strong> +57 315 810 8740</p>
+                    <p><strong>Email:</strong> <a href="mailto:j.f.m.b.1106@gmail.com">j.f.m.b.1106@gmail.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/xXjfmb1106Xx">xXjfmb1106Xx</a></p>
+                </section>
+
+                <section class="card skills">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>HTML / CSS</li>
+                        <li>Python</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Aprendizaje rápido</li>
+                    </ul>
+                </section>
+
+                <section class="card languages">
+                    <h2>Idiomas</h2>
+                    <ul>
+                        <li>Español — Nativo</li>
+                        <li>Inglés — Básico</li>
+                    </ul>
+                </section>
+            </aside>
+
+            <section class="content">
+                <section id="perfil" class="card">
+                    <h2>Perfil</h2>
+                    <p>Apasionado por la programación y el aprendizaje continuo. Busco oportunidades para aplicar y mejorar mis conocimientos en desarrollo de software y contribuir en proyectos reales.</p>
+                </section>
+
+                <section id="experiencia" class="card">
+                    <h2>Experiencia</h2>
+                    <article class="job">
+                        <h3>Técnico en Programación de Software — SENA</h3>
+                        <p class="period">Ago 2024 — Presente</p>
+                        <ul>
+                            <li>Aprendiz en programación: desarrollo de ejercicios, prácticas y mini proyectos.</li>
+                            <li>Certificados: Fundamentos de estructura de datos; Introducción a la programación con Python.</li>
+                        </ul>
+                    </article>
+                </section>
+
+                <section id="educacion" class="card">
+                    <h2>Educación</h2>
+                    <ul>
+                        <li><strong>Técnico en Programación de Software</strong> — SENA</li>
+                        <li><strong>Bachillerato</strong> — I.E. La Milagrosa, Palmira (2021 — 2026)</li>
+                    </ul>
+                </section>
+
+                <section id="proyectos" class="card">
+                    <h2>Proyectos</h2>
+                    <ul>
+                        <li>Sitio web responsivo con HTML y CSS (plantilla personal).</li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Última actualización: 26 de noviembre de 2025</p>
+        </footer>
+    </div>
 </body>
 </html>
